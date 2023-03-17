@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CB804529C074E800DA4A5E /* 方形视频.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 50CB804429C074E800DA4A5E /* 方形视频.MP4 */; };
+		50CB804A29C090D300DA4A5E /* ULPipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CB804929C090D300DA4A5E /* ULPipManager.m */; };
+		50CB805029C091AC00DA4A5E /* ULPipRowNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CB804F29C091AC00DA4A5E /* ULPipRowNode.m */; };
+		50D61DFA29C407C9005C6AEC /* 横向视频_2.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 50D61DF929C407C9005C6AEC /* 横向视频_2.MP4 */; };
+		50D999E829BF44A3000C6627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D999E729BF44A3000C6627 /* AppDelegate.m */; };
+		50D999EB29BF44A3000C6627 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D999EA29BF44A3000C6627 /* SceneDelegate.m */; };
+		50D999EE29BF44A3000C6627 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D999ED29BF44A3000C6627 /* ViewController.m */; };
+		50D999F129BF44A3000C6627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D999EF29BF44A3000C6627 /* Main.storyboard */; };
+		50D999F329BF44A5000C6627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D999F229BF44A5000C6627 /* Assets.xcassets */; };
+		50D999F629BF44A5000C6627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D999F429BF44A5000C6627 /* LaunchScreen.storyboard */; };
+		50D999F929BF44A5000C6627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D999F829BF44A5000C6627 /* main.m */; };
+		50D99A0329BF44A5000C6627 /* RadioDramaPipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A0229BF44A5000C6627 /* RadioDramaPipTests.m */; };
+		50D99A0D29BF44A5000C6627 /* RadioDramaPipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A0C29BF44A5000C6627 /* RadioDramaPipUITests.m */; };
+		50D99A0F29BF44A5000C6627 /* RadioDramaPipUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A0E29BF44A5000C6627 /* RadioDramaPipUITestsLaunchTests.m */; };
+		50D99A2129BF44B3000C6627 /* ULRadioDramaLrcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A1F29BF44B3000C6627 /* ULRadioDramaLrcView.m */; };
+		50D99A3E29BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A2629BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		50D99A3F29BF44F8000C6627 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A2F29BF44F8000C6627 /* ViewController+MASAdditions.m */; };
+		50D99A4029BF44F8000C6627 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3329BF44F8000C6627 /* MASCompositeConstraint.m */; };
+		50D99A4129BF44F8000C6627 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3429BF44F8000C6627 /* MASConstraintMaker.m */; };
+		50D99A4229BF44F8000C6627 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3529BF44F8000C6627 /* MASLayoutConstraint.m */; };
+		50D99A4329BF44F8000C6627 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3629BF44F8000C6627 /* NSArray+MASAdditions.m */; };
+		50D99A4429BF44F8000C6627 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3729BF44F8000C6627 /* View+MASAdditions.m */; };
+		50D99A4529BF44F8000C6627 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3A29BF44F8000C6627 /* MASConstraint.m */; };
+		50D99A4629BF44F8000C6627 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3C29BF44F8000C6627 /* MASViewConstraint.m */; };
+		50D99A4729BF44F8000C6627 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D99A3D29BF44F8000C6627 /* MASViewAttribute.m */; };
+		50D99A4829BF4774000C6627 /* 横向视频.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 50D99A2229BF44C9000C6627 /* 横向视频.MP4 */; };
+		50D99A4A29BF4836000C6627 /* 竖向视频.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 50D99A4929BF4836000C6627 /* 竖向视频.MP4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D999FF29BF44A5000C6627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D999DB29BF44A3000C6627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D999E229BF44A3000C6627;
+			remoteInfo = RadioDramaPip;
+		};
+		50D99A0929BF44A5000C6627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D999DB29BF44A3000C6627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D999E229BF44A3000C6627;
+			remoteInfo = RadioDramaPip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50CB804429C074E800DA4A5E /* 方形视频.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方形视频.MP4"; sourceTree = "<group>"; };
+		50CB804829C090D300DA4A5E /* ULPipManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ULPipManager.h; sourceTree = "<group>"; };
+		50CB804929C090D300DA4A5E /* ULPipManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULPipManager.m; sourceTree = "<group>"; };
+		50CB804E29C091AC00DA4A5E /* ULPipRowNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ULPipRowNode.h; sourceTree = "<group>"; };
+		50CB804F29C091AC00DA4A5E /* ULPipRowNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULPipRowNode.m; sourceTree = "<group>"; };
+		50D61DF929C407C9005C6AEC /* 横向视频_2.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "横向视频_2.MP4"; sourceTree = "<group>"; };
+		50D999E329BF44A3000C6627 /* RadioDramaPip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioDramaPip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D999E629BF44A3000C6627 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50D999E729BF44A3000C6627 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50D999E929BF44A3000C6627 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		50D999EA29BF44A3000C6627 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		50D999EC29BF44A3000C6627 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50D999ED29BF44A3000C6627 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50D999F029BF44A3000C6627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D999F229BF44A5000C6627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50D999F529BF44A5000C6627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50D999F729BF44A5000C6627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D999F829BF44A5000C6627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50D999FE29BF44A5000C6627 /* RadioDramaPipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioDramaPipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D99A0229BF44A5000C6627 /* RadioDramaPipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioDramaPipTests.m; sourceTree = "<group>"; };
+		50D99A0829BF44A5000C6627 /* RadioDramaPipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioDramaPipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D99A0C29BF44A5000C6627 /* RadioDramaPipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioDramaPipUITests.m; sourceTree = "<group>"; };
+		50D99A0E29BF44A5000C6627 /* RadioDramaPipUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioDramaPipUITestsLaunchTests.m; sourceTree = "<group>"; };
+		50D99A1D29BF44B3000C6627 /* ULRadioDramaLrcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ULRadioDramaLrcView.h; sourceTree = "<group>"; };
+		50D99A1F29BF44B3000C6627 /* ULRadioDramaLrcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ULRadioDramaLrcView.m; sourceTree = "<group>"; };
+		50D99A2229BF44C9000C6627 /* 横向视频.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "横向视频.MP4"; sourceTree = "<group>"; };
+		50D99A2529BF44F8000C6627 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		50D99A2629BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		50D99A2729BF44F8000C6627 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		50D99A2829BF44F8000C6627 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		50D99A2929BF44F8000C6627 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		50D99A2A29BF44F8000C6627 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		50D99A2B29BF44F8000C6627 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		50D99A2C29BF44F8000C6627 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		50D99A2D29BF44F8000C6627 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		50D99A2E29BF44F8000C6627 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		50D99A2F29BF44F8000C6627 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		50D99A3029BF44F8000C6627 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		50D99A3129BF44F8000C6627 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		50D99A3229BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		50D99A3329BF44F8000C6627 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		50D99A3429BF44F8000C6627 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		50D99A3529BF44F8000C6627 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		50D99A3629BF44F8000C6627 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		50D99A3729BF44F8000C6627 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		50D99A3829BF44F8000C6627 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		50D99A3929BF44F8000C6627 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		50D99A3A29BF44F8000C6627 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		50D99A3B29BF44F8000C6627 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		50D99A3C29BF44F8000C6627 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		50D99A3D29BF44F8000C6627 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		50D99A4929BF4836000C6627 /* 竖向视频.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "竖向视频.MP4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D999E029BF44A3000C6627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D999FB29BF44A5000C6627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D99A0529BF44A5000C6627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D999DA29BF44A3000C6627 = {
+			isa = PBXGroup;
+			children = (
+				50D999E529BF44A3000C6627 /* RadioDramaPip */,
+				50D99A0129BF44A5000C6627 /* RadioDramaPipTests */,
+				50D99A0B29BF44A5000C6627 /* RadioDramaPipUITests */,
+				50D999E429BF44A3000C6627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D999E429BF44A3000C6627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D999E329BF44A3000C6627 /* RadioDramaPip.app */,
+				50D999FE29BF44A5000C6627 /* RadioDramaPipTests.xctest */,
+				50D99A0829BF44A5000C6627 /* RadioDramaPipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D999E529BF44A3000C6627 /* RadioDramaPip */ = {
+			isa = PBXGroup;
+			children = (
+				50D999E629BF44A3000C6627 /* AppDelegate.h */,
+				50D999E729BF44A3000C6627 /* AppDelegate.m */,
+				50D999E929BF44A3000C6627 /* SceneDelegate.h */,
+				50D999EA29BF44A3000C6627 /* SceneDelegate.m */,
+				50D999EC29BF44A3000C6627 /* ViewController.h */,
+				50D999ED29BF44A3000C6627 /* ViewController.m */,
+				50D99A2329BF44F8000C6627 /* ULMasonry */,
+				50D99A1B29BF44B3000C6627 /* ULRadioDramaPip */,
+				50D999EF29BF44A3000C6627 /* Main.storyboard */,
+				50D999F229BF44A5000C6627 /* Assets.xcassets */,
+				50D61DF929C407C9005C6AEC /* 横向视频_2.MP4 */,
+				50D99A2229BF44C9000C6627 /* 横向视频.MP4 */,
+				50D99A4929BF4836000C6627 /* 竖向视频.MP4 */,
+				50CB804429C074E800DA4A5E /* 方形视频.MP4 */,
+				50D999F429BF44A5000C6627 /* LaunchScreen.storyboard */,
+				50D999F729BF44A5000C6627 /* Info.plist */,
+				50D999F829BF44A5000C6627 /* main.m */,
+			);
+			path = RadioDramaPip;
+			sourceTree = "<group>";
+		};
+		50D99A0129BF44A5000C6627 /* RadioDramaPipTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D99A0229BF44A5000C6627 /* RadioDramaPipTests.m */,
+			);
+			path = RadioDramaPipTests;
+			sourceTree = "<group>";
+		};
+		50D99A0B29BF44A5000C6627 /* RadioDramaPipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50D99A0C29BF44A5000C6627 /* RadioDramaPipUITests.m */,
+				50D99A0E29BF44A5000C6627 /* RadioDramaPipUITestsLaunchTests.m */,
+			);
+			path = RadioDramaPipUITests;
+			sourceTree = "<group>";
+		};
+		50D99A1B29BF44B3000C6627 /* ULRadioDramaPip */ = {
+			isa = PBXGroup;
+			children = (
+				50CB804829C090D300DA4A5E /* ULPipManager.h */,
+				50CB804929C090D300DA4A5E /* ULPipManager.m */,
+				50D99A1D29BF44B3000C6627 /* ULRadioDramaLrcView.h */,
+				50D99A1F29BF44B3000C6627 /* ULRadioDramaLrcView.m */,
+				50CB804E29C091AC00DA4A5E /* ULPipRowNode.h */,
+				50CB804F29C091AC00DA4A5E /* ULPipRowNode.m */,
+			);
+			path = ULRadioDramaPip;
+			sourceTree = "<group>";
+		};
+		50D99A2329BF44F8000C6627 /* ULMasonry */ = {
+			isa = PBXGroup;
+			children = (
+				50D99A2429BF44F8000C6627 /* Classes */,
+			);
+			path = ULMasonry;
+			sourceTree = "<group>";
+		};
+		50D99A2429BF44F8000C6627 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50D99A2529BF44F8000C6627 /* MASCompositeConstraint.h */,
+				50D99A2629BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				50D99A2729BF44F8000C6627 /* MASConstraint+Private.h */,
+				50D99A2829BF44F8000C6627 /* MASLayoutConstraint.h */,
+				50D99A2929BF44F8000C6627 /* NSArray+MASShorthandAdditions.h */,
+				50D99A2A29BF44F8000C6627 /* MASConstraintMaker.h */,
+				50D99A2B29BF44F8000C6627 /* View+MASAdditions.h */,
+				50D99A2C29BF44F8000C6627 /* NSArray+MASAdditions.h */,
+				50D99A2D29BF44F8000C6627 /* MASUtilities.h */,
+				50D99A2E29BF44F8000C6627 /* MASViewAttribute.h */,
+				50D99A2F29BF44F8000C6627 /* ViewController+MASAdditions.m */,
+				50D99A3029BF44F8000C6627 /* MASViewConstraint.h */,
+				50D99A3129BF44F8000C6627 /* MASConstraint.h */,
+				50D99A3229BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				50D99A3329BF44F8000C6627 /* MASCompositeConstraint.m */,
+				50D99A3429BF44F8000C6627 /* MASConstraintMaker.m */,
+				50D99A3529BF44F8000C6627 /* MASLayoutConstraint.m */,
+				50D99A3629BF44F8000C6627 /* NSArray+MASAdditions.m */,
+				50D99A3729BF44F8000C6627 /* View+MASAdditions.m */,
+				50D99A3829BF44F8000C6627 /* View+MASShorthandAdditions.h */,
+				50D99A3929BF44F8000C6627 /* Masonry.h */,
+				50D99A3A29BF44F8000C6627 /* MASConstraint.m */,
+				50D99A3B29BF44F8000C6627 /* ViewController+MASAdditions.h */,
+				50D99A3C29BF44F8000C6627 /* MASViewConstraint.m */,
+				50D99A3D29BF44F8000C6627 /* MASViewAttribute.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D999E229BF44A3000C6627 /* RadioDramaPip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D99A1229BF44A5000C6627 /* Build configuration list for PBXNativeTarget "RadioDramaPip" */;
+			buildPhases = (
+				50D999DF29BF44A3000C6627 /* Sources */,
+				50D999E029BF44A3000C6627 /* Frameworks */,
+				50D999E129BF44A3000C6627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioDramaPip;
+			productName = RadioDramaPip;
+			productReference = 50D999E329BF44A3000C6627 /* RadioDramaPip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D999FD29BF44A5000C6627 /* RadioDramaPipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D99A1529BF44A5000C6627 /* Build configuration list for PBXNativeTarget "RadioDramaPipTests" */;
+			buildPhases = (
+				50D999FA29BF44A5000C6627 /* Sources */,
+				50D999FB29BF44A5000C6627 /* Frameworks */,
+				50D999FC29BF44A5000C6627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D99A0029BF44A5000C6627 /* PBXTargetDependency */,
+			);
+			name = RadioDramaPipTests;
+			productName = RadioDramaPipTests;
+			productReference = 50D999FE29BF44A5000C6627 /* RadioDramaPipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50D99A0729BF44A5000C6627 /* RadioDramaPipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D99A1829BF44A5000C6627 /* Build configuration list for PBXNativeTarget "RadioDramaPipUITests" */;
+			buildPhases = (
+				50D99A0429BF44A5000C6627 /* Sources */,
+				50D99A0529BF44A5000C6627 /* Frameworks */,
+				50D99A0629BF44A5000C6627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D99A0A29BF44A5000C6627 /* PBXTargetDependency */,
+			);
+			name = RadioDramaPipUITests;
+			productName = RadioDramaPipUITests;
+			productReference = 50D99A0829BF44A5000C6627 /* RadioDramaPipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D999DB29BF44A3000C6627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					50D999E229BF44A3000C6627 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					50D999FD29BF44A5000C6627 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 50D999E229BF44A3000C6627;
+					};
+					50D99A0729BF44A5000C6627 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 50D999E229BF44A3000C6627;
+					};
+				};
+			};
+			buildConfigurationList = 50D999DE29BF44A3000C6627 /* Build configuration list for PBXProject "RadioDramaPip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D999DA29BF44A3000C6627;
+			productRefGroup = 50D999E429BF44A3000C6627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D999E229BF44A3000C6627 /* RadioDramaPip */,
+				50D999FD29BF44A5000C6627 /* RadioDramaPipTests */,
+				50D99A0729BF44A5000C6627 /* RadioDramaPipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D999E129BF44A3000C6627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D999F629BF44A5000C6627 /* LaunchScreen.storyboard in Resources */,
+				50D99A4829BF4774000C6627 /* 横向视频.MP4 in Resources */,
+				50D999F329BF44A5000C6627 /* Assets.xcassets in Resources */,
+				50D999F129BF44A3000C6627 /* Main.storyboard in Resources */,
+				50D61DFA29C407C9005C6AEC /* 横向视频_2.MP4 in Resources */,
+				50D99A4A29BF4836000C6627 /* 竖向视频.MP4 in Resources */,
+				50CB804529C074E800DA4A5E /* 方形视频.MP4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D999FC29BF44A5000C6627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D99A0629BF44A5000C6627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D999DF29BF44A3000C6627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D99A4629BF44F8000C6627 /* MASViewConstraint.m in Sources */,
+				50D999EE29BF44A3000C6627 /* ViewController.m in Sources */,
+				50D99A4129BF44F8000C6627 /* MASConstraintMaker.m in Sources */,
+				50CB804A29C090D300DA4A5E /* ULPipManager.m in Sources */,
+				50D999E829BF44A3000C6627 /* AppDelegate.m in Sources */,
+				50D99A3F29BF44F8000C6627 /* ViewController+MASAdditions.m in Sources */,
+				50D99A3E29BF44F8000C6627 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				50CB805029C091AC00DA4A5E /* ULPipRowNode.m in Sources */,
+				50D99A4029BF44F8000C6627 /* MASCompositeConstraint.m in Sources */,
+				50D999F929BF44A5000C6627 /* main.m in Sources */,
+				50D99A4229BF44F8000C6627 /* MASLayoutConstraint.m in Sources */,
+				50D99A4429BF44F8000C6627 /* View+MASAdditions.m in Sources */,
+				50D99A4329BF44F8000C6627 /* NSArray+MASAdditions.m in Sources */,
+				50D99A2129BF44B3000C6627 /* ULRadioDramaLrcView.m in Sources */,
+				50D999EB29BF44A3000C6627 /* SceneDelegate.m in Sources */,
+				50D99A4729BF44F8000C6627 /* MASViewAttribute.m in Sources */,
+				50D99A4529BF44F8000C6627 /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D999FA29BF44A5000C6627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D99A0329BF44A5000C6627 /* RadioDramaPipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D99A0429BF44A5000C6627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D99A0F29BF44A5000C6627 /* RadioDramaPipUITestsLaunchTests.m in Sources */,
+				50D99A0D29BF44A5000C6627 /* RadioDramaPipUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D99A0029BF44A5000C6627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D999E229BF44A3000C6627 /* RadioDramaPip */;
+			targetProxy = 50D999FF29BF44A5000C6627 /* PBXContainerItemProxy */;
+		};
+		50D99A0A29BF44A5000C6627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D999E229BF44A3000C6627 /* RadioDramaPip */;
+			targetProxy = 50D99A0929BF44A5000C6627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D999EF29BF44A3000C6627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D999F029BF44A3000C6627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50D999F429BF44A5000C6627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D999F529BF44A5000C6627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D99A1029BF44A5000C6627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50D99A1129BF44A5000C6627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D99A1329BF44A5000C6627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioDramaPip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50D99A1429BF44A5000C6627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9Y433KPH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioDramaPip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwyl.player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50D99A1629BF44A5000C6627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxin.RadioDramaPipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioDramaPip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioDramaPip";
+			};
+			name = Debug;
+		};
+		50D99A1729BF44A5000C6627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxin.RadioDramaPipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioDramaPip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioDramaPip";
+			};
+			name = Release;
+		};
+		50D99A1929BF44A5000C6627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxin.RadioDramaPipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioDramaPip;
+			};
+			name = Debug;
+		};
+		50D99A1A29BF44A5000C6627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxin.RadioDramaPipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioDramaPip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D999DE29BF44A3000C6627 /* Build configuration list for PBXProject "RadioDramaPip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D99A1029BF44A5000C6627 /* Debug */,
+				50D99A1129BF44A5000C6627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D99A1229BF44A5000C6627 /* Build configuration list for PBXNativeTarget "RadioDramaPip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D99A1329BF44A5000C6627 /* Debug */,
+				50D99A1429BF44A5000C6627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D99A1529BF44A5000C6627 /* Build configuration list for PBXNativeTarget "RadioDramaPipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D99A1629BF44A5000C6627 /* Debug */,
+				50D99A1729BF44A5000C6627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D99A1829BF44A5000C6627 /* Build configuration list for PBXNativeTarget "RadioDramaPipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D99A1929BF44A5000C6627 /* Debug */,
+				50D99A1A29BF44A5000C6627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D999DB29BF44A3000C6627 /* Project object */;
+}
